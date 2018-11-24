@@ -19,7 +19,7 @@ def sched_fun(wx_group):
 
 
 if __name__ == '__main__':
-    bot = Bot(cache_path=True,console_qr = True)
+    bot = Bot(cache_path=True,console_qr = 1)
     bot.enable_puid('wxpy.pkl')
     wx_group = ensure_one(bot.groups().search('魔法师俱乐部'))
 
